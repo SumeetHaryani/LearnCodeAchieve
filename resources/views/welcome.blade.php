@@ -26,15 +26,24 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="https://www.mytechlogy.com/upload/by_users/AndreaMaria/311710051336HowWillMachineLearningChangeDigitalMarketing.png"
-                alt="First slide" style="height:430px;">
+                alt="First slide" style="height:440px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Learn Machine Learning</h5>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="https://i1.wp.com/venturelab.ca/wp-content/uploads/2018/02/Blockchain-Technology.jpg?fit=800%2C400&ssl=1"
-                alt="Second slide" style="height:430px;">
+                alt="Second slide" style="height:440px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>What is a Blockchain and how does it work?</h5>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="https://images.yourstory.com/2017/12/cloud-computing.jpg?auto=compress" alt="Third slide"
-                style="height:430px;">
+                style="height:440px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cloud Computing.</h5>
+            </div>
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

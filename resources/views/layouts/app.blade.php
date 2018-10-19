@@ -78,8 +78,14 @@
                         <a class="nav-link" href="{{ url('/aboutUs') }}">About us</a>
                     </li>
                 </ul>
+
+
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
+                    <form class="form-inline" style="margin-right:16px;">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary " type="submit">Search</button>
+                    </form>
                     <!-- Authentication Links -->
                     @auth
                     <li class="nav-item">
