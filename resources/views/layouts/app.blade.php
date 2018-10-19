@@ -72,7 +72,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/forum') }}">Forum</a>
+                        <a class="nav-link" href="{{ url('/posts') }}">Forum</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/aboutUs') }}">About us</a>

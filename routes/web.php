@@ -23,12 +23,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/course/add', [
     'uses'=>'CourseController@courseAdd'
 ]);
-Route::get('/forum', [
-    'uses'=>'ForumController@forum'
-]);
+// Route::get('/forum', [
+//     'uses'=>'ForumController@forum'
+// ]);
 Route::get('/courses', [
     'uses'=>'CourseController@courses'
 ]);
 Route::get('/aboutUs', [
     'uses'=>'AboutUsController@aboutUs'
 ]);
+
+Route::resource('posts', 'PostsController');
+Auth::routes();
