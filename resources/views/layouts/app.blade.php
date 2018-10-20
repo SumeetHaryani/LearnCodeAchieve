@@ -49,9 +49,49 @@
 #dropdown{
     color: black;
 }
-
-
-    </style>
+.post{
+    margin-top: 15px;
+    clear: both;
+}
+.create{
+    float: right;
+    margin-right: 198px;
+    margin-bottom: 20px;
+}
+.delete{
+    float: right;
+    margin-right: 198px;
+}
+.edit{
+    margin-left: 198px;
+    margin-top: 20px;
+}
+.comment1{
+    clear: both;
+    margin-top: 30px;
+}
+.commentarea{
+    margin-top: 15px;
+}
+.commentsection{
+     
+    width: 1140px;
+    margin-left: 200px;
+}
+.comments li{
+    margin-top: 40px;
+    margin-left: 158px;
+}
+.title{
+    margin-left: 198px;
+    margin-top: 50px;
+}
+.title-message{
+    margin-left: 198px;
+    margin-top: 50px;
+    margin-right: 198px;
+}
+</style>
 </head>
 
 <body>
@@ -72,7 +112,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/forum') }}">Forum</a>
+                        <a class="nav-link" href="{{ url('/posts') }}">Forum</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url('/aboutUs') }}">About us</a>
@@ -129,13 +169,15 @@
                             </form>
                         </div>
                     </li>
-                    @endguest
+                 @endguest
                 </ul>
             </div>
         </nav>
 
         <main class="py-4">
+            @include('inc.messages')
             @yield('content')
+
         </main>
     </div>
 </body>
