@@ -35,3 +35,4 @@ Route::get('/aboutUs', [
 
 Route::resource('posts', 'PostsController');
 Auth::routes();
+Route::resource('/post/{post_id}/comments','CommentsController');
