@@ -56,5 +56,8 @@
     </a>
 </div>
 
-
+<?php 
+$x='<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd_eC3e81iyJKEZ9et0uOhZorC9_NG97-LYIRZ5XJpTJckcFg/viewform?embedded=true" width="640" height="656" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>';
+echo $x;
+?>
 @endsection

@@ -143,7 +143,7 @@ footer i{
 <body>
     <div id="app">
         <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="{{ url('/') }}"><i class="fas fa-laptop-code fa-lg"></i>LearnCodeAchieve</a>
+            <a class="navbar-brand" href="{{ url('/') }}"><i class="fas fa-laptop-code fa-lg"></i>LCA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
