@@ -56,6 +56,5 @@
     </a>
 </div>
 
-<h1>ho</h1>
 
 @endsection

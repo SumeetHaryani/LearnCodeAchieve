@@ -36,3 +36,7 @@ Route::get('/aboutUs', [
 Route::resource('posts', 'PostsController');
 Auth::routes();
 Route::resource('/post/{post_id}/comments','CommentsController');
+
+
+Route::resource('createcourses', 'CreateCourseController');
+Route::resource('show1', 'CreateCourseController');
