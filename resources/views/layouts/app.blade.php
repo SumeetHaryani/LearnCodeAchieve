@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <style>
         html, body {
                 background-color: #fff;
@@ -90,6 +91,35 @@
     margin-left: 198px;
     margin-top: 50px;
     margin-right: 198px;
+}
+.jumbo{
+    height: 430px;
+    font-size: 80px;
+    margin-top: 0px;
+    color: white;
+    background-image: url("/image.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.jumbo small{
+    font-size: 40px;
+}
+.text{
+    font-size: 40px;
+}
+.secondfluid{
+    font-size: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+.moretext{
+    font-size: 40px;
 }
 </style>
 </head>
@@ -181,5 +211,4 @@
         </main>
     </div>
 </body>
-
 </html>

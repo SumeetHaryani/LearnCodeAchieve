@@ -21,7 +21,7 @@
     @endif
     </div>
     <div class="page-header title">
-    <h2>Comment Section</h2>
+    <h2><i class="fas fa-comments"></i> Comment Section</h2>
     </div>
     <div class="comments">
         <ul>
