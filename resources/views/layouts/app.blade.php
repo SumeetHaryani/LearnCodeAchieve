@@ -121,13 +121,29 @@ img{
 .moretext{
     font-size: 40px;
 }
+.footer-copyright{
+    background-color: #012B74;
+}
+footer{
+    background-color: #012B74;
+    margin-top: 100px;
+}
+footer i{
+    padding-top: 20px;
+    position: relative;
+}
+ footer hr{
+    background-color: #01B9F5;
+    width: 1519.2px;
+    margin: 0px;
+}
 </style>
 </head>
 
 <body>
     <div id="app">
         <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="{{ url('/') }}">LCA</a>
+            <a class="navbar-brand" href="{{ url('/') }}"><i class="fas fa-laptop-code fa-lg"></i>LearnCodeAchieve</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -207,8 +223,51 @@ img{
         <main class="py-4">
             @include('inc.messages')
             @yield('content')
-
         </main>
     </div>
+    <footer>
+            <div class="fluid-container">
+
+                    <!-- Social buttons -->
+                    <ul class="list-unstyled list-inline text-center">
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/">
+                          <i class="fab fa-facebook fa-lg"> </i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1" href="https://www.twitter.com/">
+                          <i class="fab fa-twitter fa-lg"> </i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-gplus mx-1" href="https://plus.google.com/">
+                          <i class="fab fa-google-plus fa-lg"> </i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/">
+                          <i class="fab fa-linkedin fa-lg"> </i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="btn-floating btn-dribbble mx-1" href="https://www.dribble.com/">
+                          <i class="fab fa-dribbble fa-lg"> </i>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- Social buttons -->
+                  
+                  <hr></div>
+                  <!-- Footer Elements -->
+              
+                  <!-- Copyright -->
+                  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                    <a href="https://LearnCodeAchieve.com">LearnCodeAchieve.com</a>
+                  </div>
+                  <!-- Copyright -->
+              
+              
+    </footer>
 </body>
 </html>
