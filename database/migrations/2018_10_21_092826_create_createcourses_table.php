@@ -23,6 +23,7 @@ class CreateCreatecoursesTable extends Migration
             $table->string('cover_image');
             $table->string('video1');
             $table->string('video2'); 
+            $table->string('quiz');
                     
             $table->timestamps();
         });

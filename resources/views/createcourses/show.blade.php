@@ -41,5 +41,8 @@
         
     <hr>
     <small>Created on {{$createcourse->created_at}}</small>
+
 </div>
+$createcourse->quiz
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWRqhDLiYIZJ0jrhBBhWAltyVK4frD2IcJe95zEFEmoa7Cag/viewform?embedded=true" width="640" height="405" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 @endsection

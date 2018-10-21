@@ -154,7 +154,7 @@ footer i{
                         <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/createcourses/create') }}">Courses</a>
+                        <a class="nav-link" href="{{ url('/createcourses') }}">Courses</a>
                     </li>
 
                     <li class="nav-item">
@@ -180,7 +180,7 @@ footer i{
                     </li>
                     @if (Auth::user()->usr_type=='Instructor')
                     <li class="nav-item">
-                        <a class="btn btn-primary" href="{{ url('/createcourses') }}" role="button" style="margin-right: 16px">{{
+                        <a class="btn btn-primary" href="{{ url('/createcourses/create') }}" role="button" style="margin-right: 16px">{{
                             __('ADD COURSE') }}</a>
                     </li>
                     @endif

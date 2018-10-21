@@ -50,12 +50,21 @@
                   <label class="custom-file-label" for="cover_image">Choose file</label>
                 </div>
               </div> --}}
-            
+              <div class="form-group">
+                <a class="btn btn-primary" role="button" style="color:white;" href="https://docs.google.com/forms/u/0/"target="_blank">{{
+                            __('Add Quiz') }}</a>
+                            <br>
+                            {{Form::label('quiz', 'Enter Embeded quiz HTML')}}
+                            {{Form::text('quiz', '', ['class' => 'form-control', 'placeholder' => 'enter Embeded HTML'])}}
+
+                        </div>
         <div>
 
             
         {{Form::submit('Add Course', ['class'=>'btn btn-primary'])}}
+
     {!! Form::close() !!}
         </div>
+    
 </div>
 @endsection

@@ -94,6 +94,7 @@ class CreateCourseController extends Controller
             $createcourse->vid1 = $request->input('vid1');
             $createcourse->vid2 = $request->input('vid2');
             $createcourse->body = $request->input('body');
+            $createcourse->quiz=$request->input('quiz');
             $createcourse->video1 = $fileNameToStore;
             $createcourse->video2 = $fileNameToStore2;
             //$createcourse->user_id = auth()->user()->id;
