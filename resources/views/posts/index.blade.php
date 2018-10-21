@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1 class="page-header title">Posts</h1>
+    <h1 class="page-header title"><i class="fas fa-pen-alt"></i> Posts</h1>
     <div >
     <a href="/posts/create" class="btn btn-primary create">Create Post</a>
     </div>
