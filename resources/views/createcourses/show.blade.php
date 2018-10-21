@@ -43,7 +43,9 @@
     <small>Created on {{$createcourse->created_at}}</small>
 
 </div>
+<div class="jumbotron text-center p-3 p-md-5" style="background-color: #012b72">
 <?php
 echo $createcourse->quiz;
 ?>
+</div>
 @endsection

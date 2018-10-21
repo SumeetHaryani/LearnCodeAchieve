@@ -39,4 +39,7 @@ Route::resource('/post/{post_id}/comments','CommentsController');
 
 
 Route::resource('createcourses', 'CreateCourseController');
-Route::resource('show1', 'CreateCourseController');
+
+Route::get('/live_search', 'SearchController@index');
+Route::get('/live_search/action', 'SearchController@action')->name('live_search.action');
+
